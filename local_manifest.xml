@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+ <!-- Remotes -->
+    <remote name="gh"
+            fetch="https://github.com"
+            clone-depth="1" />
+ <!--Tree -->
+ <project path="device/xiaomi/ginkgo" name="ozturkmutlu65/device_xiaomi_ginkgo" remote="gh" revision="qpr2" />
 
- <!-- Trees -->
- <project path="device/xiaomi/ginkgo" name="ozturkmutlu65/device_xiaomi_ginkgo.git" remote="github" revision="qpr2" />
- <project path="vendor/xiaomi/ginkgo" name="ozturkmutlu65/vendor_xiaomi_ginkgo-udc.git" remote="github" revision="udc" />
- <project path="kernel/xiaomi/ginkgo" name="kutemeikito/android_kernel_xiaomi_ginkgo.git" remote="github" revision="Fourteen" />
+ <!--Kernel -->
+ <project path="kernel/xiaomi/ginkgo" name="kutemeikito/android_kernel_xiaomi_ginkgo" remote="gh" revision="Fourteen" />
+ 
+ <!--Vendor -->
+ <project path="vendor/xiaomi/ginkgo" name="ozturkmutlu65/vendor_xiaomi_ginkgo-udc" remote="gh" revision="udc" />
  
 </manifest>
