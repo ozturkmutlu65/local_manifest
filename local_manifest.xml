@@ -11,6 +11,6 @@
  <project path="kernel/xiaomi/ginkgo" name="ozturkmutlu65/android_kernel_xiaomi_ginkgo" remote="gh" revision="qpr2" />
  
  <!--Vendor -->
- <project path="vendor/xiaomi/ginkgo" name="ozturkmutlu65/vendor_xiaomi_ginkgo-udc" remote="gh" revision="qpr3" />
+ <project path="vendor/xiaomi/ginkgo" name="ozturkmutlu65/vendor_xiaomi_ginkgo" remote="gh" revision="qpr3" />
  
 </manifest>
