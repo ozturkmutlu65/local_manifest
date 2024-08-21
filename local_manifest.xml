@@ -14,7 +14,7 @@
  <project path="vendor/xiaomi/ginkgo" name="ozturkmutlu65/vendor_xiaomi_ginkgo" remote="gh" revision="qpr3" />
 
  <!--Viper4AndroidFX -->
- <project path="packages/apps/Viper4AndroidFX" name="ozturkmutlu65/packages_apps_ViPER4AndroidFX" remote="gh" revision="v4a" />
+ <project path="packages/apps/ViPER4AndroidFX" name="ozturkmutlu65/packages_apps_ViPER4AndroidFX" remote="gh" revision="v4a" />
 
  <!--MiuiCamera -->
  <project path="vendor/xiaomi/miuicamera" name="ozturkmutlu65/android_vendor_xiaomi_miuicamera" remote="gh" revision="13" />
