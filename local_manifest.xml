@@ -4,9 +4,6 @@
     <remote name="gh"
             fetch="https://github.com"
             clone-depth="1" />
-    <remote name="gitlab"
-            fetch="https://gitlab.com"
-            clone-depth="1" />
  <!--Tree -->
  <project path="device/xiaomi/ginkgo" name="ozturkmutlu65/device_xiaomi_ginkgo" remote="gh" revision="android15" />
 
