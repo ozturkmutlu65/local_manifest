@@ -1,1 +1,17 @@
-.
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remotes -->
+    <remote name="gh"
+            fetch="https://github.com"
+            clone-depth="1" />
+ <!--Tree -->
+ <project path="device/xiaomi/ginkgo" name="ozturkmutlu65/device_xiaomi_ginkgo" remote="gh" revision="android15" />
+
+ <!--Kernel -->
+ <project path="kernel/xiaomi/ginkgo" name="ozturkmutlu65/android_kernel_xiaomi_ginkgo" remote="gh" revision="fourteen/main" />
+ 
+ <!--Vendor -->
+ <project path="vendor/xiaomi/ginkgo" name="ozturkmutlu65/vendor_xiaomi_ginkgo" remote="gh" revision="qpr3" />
+
+</manifest>
+ 
