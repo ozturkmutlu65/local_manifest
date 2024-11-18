@@ -4,7 +4,7 @@
     <remote name="gh"
             fetch="https://github.com"
             clone-depth="1" />
-    <remote name="gitlab"
+    <remote name="gl"
             fetch="https://gitlab.com"
             clone-depth="1" />
  <!--Tree -->
@@ -17,7 +17,7 @@
  <project path="vendor/xiaomi/ginkgo" name="ozturkmutlu65/vendor_xiaomi_ginkgo" remote="gh" revision="qpr3" />
 
  <!--Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-rastamod" name="kutemeikito/rastamod69-clang" remote="gitlab" revision="clang-20.0" />
+ <project path="prebuilts/clang/host/linux-x86/clang-rastamod" name="kutemeikito/rastamod69-clang" remote="gl" revision="clang-20.0" />
 
 </manifest>
  
