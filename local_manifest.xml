@@ -11,7 +11,7 @@
             fetch="https://bitbucket.org/ij-project1"
             clone-depth="1" />
  <!--Tree -->
- <project path="device/xiaomi/ginkgo" name="ozturkmutlu65/device_xiaomi_ginkgo" remote="gh" revision="yaap-fifteen" />
+ <project path="device/xiaomi/ginkgo" name="ozturkmutlu65/device_xiaomi_ginkgo" remote="gh" revision="android15" />
 
  <!--Kernel -->
  <project path="kernel/xiaomi/ginkgo" name="ozturkmutlu65/android_kernel_xiaomi_ginkgo" remote="gh" revision="fourteen/main" />
