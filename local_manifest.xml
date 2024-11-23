@@ -7,9 +7,6 @@
     <remote name="gl"
             fetch="https://gitlab.com"
             clone-depth="1" />
-    <remote name="bitb"
-            fetch="https://bitbucket.org/ij-project1"
-            clone-depth="1" />
  <!--Tree -->
  <project path="device/xiaomi/ginkgo" name="ozturkmutlu65/device_xiaomi_ginkgo" remote="gh" revision="android15" />
 
@@ -21,10 +18,6 @@
 
  <!--Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-rastamod" name="kutemeikito/rastamod69-clang" remote="gl" revision="clang-20.0" />
-
- <!-- vendor_gms_vic -->
- <remove-project name="vendor_gms_vic" />
- <project path="vendor/gms" name="vendor_gms_vic" remote="bitb" revision="vic" clone-depth="1" />
-
-</manifest>
+ 
+ </manifest>
  
