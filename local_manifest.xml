@@ -8,16 +8,13 @@
             fetch="https://gitlab.com"
             clone-depth="1" />
  <!--Tree -->
- <project path="device/xiaomi/ginkgo" name="ozturkmutlu65/device_xiaomi_ginkgo-test" remote="gh" revision="fifteen-test" />
+ <project path="device/xiaomi/ginkgo" name="ozturkmutlu65/device_xiaomi_ginkgo" remote="gh" revision="android15" />
 
  <!--Kernel -->
  <project path="kernel/xiaomi/ginkgo" name="ozturkmutlu65/android_kernel_xiaomi_ginkgo" remote="gh" revision="fourteen/main" />
  
  <!--Vendor -->
- <project path="vendor/xiaomi/ginkgo" name="ozturkmutlu65/vendor_xiaomi_ginkgo-test" remote="gh" revision="udc" />
-
- <!--MiuiCamera -->
- <project path="vendor/miuicamera" name="ozturkmutlu65/android_vendor_miuicamera" remote="gh" revision="arrow-12.0-a3" />
+ <project path="vendor/xiaomi/ginkgo" name="ozturkmutlu65/vendor_xiaomi_ginkgo" remote="gh" revision="qpr3" />
 
  <!--Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-rastamod" name="kutemeikito/rastamod69-clang" remote="gl" revision="clang-20.0" />
