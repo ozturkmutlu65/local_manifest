@@ -16,6 +16,9 @@
  <!--Vendor -->
  <project path="vendor/xiaomi/ginkgo" name="ozturkmutlu65/vendor_xiaomi_ginkgo-test" remote="gh" revision="udc" />
 
+ <!--MiuiCamera -->
+ <project path="vendor/miuicamera" name="ozturkmutlu65/android_vendor_miuicamera" remote="gh" revision="arrow-12.0-a3" />
+
  <!--Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-rastamod" name="kutemeikito/rastamod69-clang" remote="gl" revision="clang-20.0" />
  
