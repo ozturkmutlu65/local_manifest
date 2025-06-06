@@ -22,4 +22,7 @@
   <!-- MIUI Camera -->
   <project path="vendor/xiaomi/miuicamera" name="ZorEl212/vendor_xiaomi_miuicamera" remote="gitlab" revision="anx-ginkgo" />
 
+  <!--Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-rastamod" name="kutemeikito/rastamod69-clang" remote="gitlab" revision="clang-20.0" />
+
 </manifest>
