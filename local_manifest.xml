@@ -5,26 +5,13 @@
           fetch="https://github.com/" />
 
   <!-- Device and vendor tree -->
-  <project path="device/xiaomi/sm6225-common" name="lycodump/android_device_xiaomi_sm6225-common" remote="gh" revision="bka" />
-  <project path="device/xiaomi/sapphire" name="lycodump/android_device_xiaomi_sapphire" remote="gh" revision="15-AIDL" />
-  <project path="vendor/xiaomi/sm6225-common" name="lycodump/android_vendor_xiaomi_sm6225-common" remote="gh" revision="15" />
+  <project path="device/xiaomi/sm6225-common" name="lycodump/android_device_xiaomi_sm6225-common" remote="gh" revision="bka-new-test" />
+  <project path="device/xiaomi/sapphire" name="lycodump/android_device_xiaomi_sapphire" remote="gh" revision="bka" />
   <project path="vendor/xiaomi/sapphire" name="lycodump/android_vendor_xiaomi_sapphire" remote="gh" revision="lineage-22.2" />
   <project path="device/xiaomi/sepolicy" name="sapphire-sm6225/device_xiaomi_sepolicy" remote="gh" revision="15" />
 
   <!-- Kernel -->
   <project path="device/xiaomi/sapphire-kernel" name="lycodump/android_device_xiaomi_sapphire-kernel" remote="gh" revision="15" />
-
-  <!-- Xiaomi HAL -->
-  <project path="hardware/xiaomi" name="Evolution-X-Devices/hardware_xiaomi" remote="gh" revision="bka" />
-  <project path="hardware/qcom-caf/common" name="lycodump/hardware_qcom-caf_common" remote="gh" revision="sixteen" />
-  <project path="hardware/qcom-caf/sm6225/audio/agm" name="lycodump/hardware_qcom-caf_sm6225_audio_agm" remote="gh" revision="sixteen" />
-  <project path="hardware/qcom-caf/sm6225/audio/pal" name="lycodump/hardware_qcom-caf_sm6225_audio_pal" remote="gh" revision="sixteen" />
-  <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="lycodump/hardware_qcom-caf_sm6225_data-ipa-cfg-mgr" remote="gh" revision="sixteen" />
-  <project path="hardware/qcom-caf/sm6225/dataipa" name="lycodump/hardware_qcom-caf_sm6225_dataipa" remote="gh" revision="sixteen" />
-  <project path="hardware/qcom-caf/sm6225/display" name="sapphire-sm6225/hardware_qcom_display" remote="gh" revision="lineage-22.0-caf-sm6225" />
-  <project path="hardware/qcom-caf/sm6225/media" name="sapphire-sm6225/hardware_qcom_media" remote="gh" revision="lineage-22.0-caf-sm6225" />
-  <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="sapphire-sm6225/hardware_qcom_audio" remote="gh" revision="lineage-22.0-caf-sm6225" />
-  <project path="device/qcom/sepolicy_vndr/sm6225" name="lycodump/android_device_qcom_sepolicy_vndr_sm6225" remote="gh" revision="sixteen" />
   
 
 
